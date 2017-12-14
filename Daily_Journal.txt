@@ -1,0 +1,39 @@
+@Milo
+
+####################################
+December 13, 2017 
+####################################
+
+The simulation has a bugg we want to fix. It consists in showing linear spatial gaps on the ghost-ray pattern for far
+off-axis sources (~20 or ~30 arcmin).
+
+The plan is to look at the cross-section of the incident rays at especific locations along the optical path. e.g.
+at the module pupil, at the first hit of every ray.
+
+So far I have tested that cross-section at the front of the optics for an on-axis source. The work was saved in the python3
+notebook: "/Source_Debuging_00.ipynb".
+
+Small problem found: The inner blocker has the wrong dimension. An
+issue was created in the FOXSI-Github repository and assigned to
+myself to fix it once I get the real values from Patrick (Marshall).
+Patrick already responded saying he will give me those number early
+next week. Fro now we could take some numbers out of the CAD drawings.
+
+####################################
+December 14, 2017 
+####################################
+
+* Created a notebook called Source_Debuging_01.ipynb that contains
+  tests that pass rays through the module and plot the cross-section.
+  
+
+
+
+
+
+
+
+
+
+
+
