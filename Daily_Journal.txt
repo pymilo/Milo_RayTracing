@@ -26,6 +26,49 @@ December 14, 2017
 * Created a notebook called Source_Debuging_01.ipynb that contains
   tests that pass rays through the module and plot the cross-section.
   
+####################################
+December 15, 2017 
+####################################
+
+* I plotted the cross-section of the rays after their first
+  bounce - Everything saved in Notebook: Source_Debuging_01.
+  Here what I found:
+
+  * For an on-axis at d=100m source, photons hit once in both the
+    Paraboloid and the Hyperboloid segment.
+  * For an on-axis at d=1AU source, photons hit once only on the
+    most inner hyperboloid segment. This is expected since for this
+    far away source, the rays come almost in a parallel configuration.
+  * The reason I see hyperboloid hits only in the most inner mirror is
+    because the rays are not yet killed by the back core blocker.
+    I expect that once the rays are collected by the detector,
+    i.e. pass through the back blocker, those singly reflected rays
+    get killed.
+  * From the simulation, paraboloid gost rays appear at smaller
+    off-axis angles than those coming from the hyperboloid segment.
+  * If theta is the polar angle, paraboloid ghost rays initially come
+    from theta ~ 0 and 180 degress. Then the move down once the
+    off-axis increases. This is true for an off-axis source located on
+    the negative region of the Y-axis.
+  * Some ghost rays coming from the hyperboloid segment start
+    appearing for off-axis greater than ~15 arcmin.
+  * Whit 10 thousand rays I sort of see some gaps on the singly
+    reflected rays coming from the paraboloid. More rays are needed to
+    convince myself that the gaps are indeed there.
+  * I run one million photons at the end of the notebook. It took a
+    while, so I figured I might be better to use the rays already
+    saved in CSV files to make this kind of plots and that is exactly
+    what I'll do next.
+
+
+
+
+
+
+
+
+
+
 
 
 
