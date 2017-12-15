@@ -1,0 +1,4 @@
+# This is an example of the kind of files git can ignore at pulling/pushing
+# ignore all logs
+*.log
+.ipynb_checkpoints
