@@ -75,10 +75,41 @@ December 19, 2017
     Optics calibration.
 
 ####################################
+December 20, 2017 
+####################################
+
+   * Hunting down the save_rays problem. I found that the problem was
+     that the passthorugh rays (those that don't interact with the
+     module) don't have a hist parameter with dimension greater than
+     2, so the program was breaking. I easily solved the problem by
+     sieving the rays and eliminating those that pass thorugh.
+   * We have passthrough rays at this point because the back blocker
+     hasn't been introduced. It is introduce with the function
+     Detector.CatchRays.
+
+####################################
 December 21, 2017 
 ####################################
 
-   * Hunting down the save_rays problem.
+    * There is a big difference on the angular distribution observed
+      for 30arcmin off-axis sources between Notebooks
+      Source_Debuging_01 and Source_Debuging_02. The main difference
+      is that the first is plotted using Rays that Pass Thorugh the
+      module and no more. The second plots the rays that in addition
+      to pass thorugh the module have been caught by the detector. I
+      suspect the assimetry may be related with the way the detector
+      catches rays.
+    * To asses this difference I run rays at 30arcmin off-axis and
+      saved them on '1millionRays/rays_on_module.csv'
+    * These differences are compared on Notebook: Source_Debuging_03
+
+
+
+
+
+
+
+
    
 
 
