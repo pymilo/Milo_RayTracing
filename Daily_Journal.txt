@@ -60,6 +60,27 @@ December 15, 2017
     saved in CSV files to make this kind of plots and that is exactly
     what I'll do next.
 
+####################################
+December 19, 2017 
+####################################
+
+  * Tryed to save the rays using the  foxsisim.util "save_rays"
+    function, but after running 10e7 rays I did not have success
+    saving the rays for a bug related with the history parameter of
+    the rays. This cost me 4 hours of having the computer running with
+    no succes. Save_rays shows some troubles when the rays are more
+    than 40 off-axis for some reason. Further exploration is needed.
+
+  * I expended most of my time debugging the HPD function of the
+    Optics calibration.
+
+####################################
+December 21, 2017 
+####################################
+
+   * Hunting down the save_rays problem.
+   
+
 
 
 
