@@ -99,36 +99,29 @@ December 21, 2017
       to pass thorugh the module have been caught by the detector. I
       suspect the assimetry may be related with the way the detector
       catches rays.
-    * To asses this difference I run rays at 30arcmin off-axis and
+     * To asses this difference I run rays at 30arcmin off-axis and
       saved them on '1millionRays/rays_on_module.csv'
     * These differences are compared on Notebook: Source_Debuging_03
 
+####################################
+December 22, 2017 
+####################################
 
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    * I plotted ~3 Million rays generated at 1AU 30arcmin off-axis
+      that hit the module but have not been caught by the
+      detector. The angular distribution looks pretty even to me.
+    * In Notebook "Source_Debuging_03" I created a detector of 10x10
+      cm and a resolution of 1024x1024 to catch rays. That procedure
+      takes some time.
+    * Plotting caught rays: The gaps are gone, and in addition, some
+      extra ghost rays are observed from those parts that were not
+      observed before. The only apparent difference between the way
+      the simulation was run now with that that I ran a couple of
+      weeks ago is that we fixed the size of the blocker.
+    * Possible next step: Run the simulation with the exact
+      pareameters I used a couple of weeks ago, i.e. blocker size by
+      default, and reproduce the gaps. If by changing the blocker size
+      we see change in the gaps size and apperance we could conclude
+      that those blockers are a key piece for the FOXSI optics and
+      Ghost Rays.
+      
