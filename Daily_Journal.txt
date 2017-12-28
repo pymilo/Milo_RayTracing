@@ -125,3 +125,21 @@ December 22, 2017
       that those blockers are a key piece for the FOXSI optics and
       Ghost Rays.
       
+####################################
+December 27, 2017 
+####################################
+
+    * I've been pretty much enjoying the hollydays, but today I start
+      running the simulation with the default parameters (defaults
+      blocker size) for an off-axis source located at the negative
+      side of the Y-axis. Running for 1 Million rays.
+
+####################################
+December 28, 2017 
+####################################
+
+      * Reading the rays for default parameters.
+      * There are no gaps. Why!?
+      * Second Goal: Over plot the simulation with Lab data.
+      * It may be better to overplot the simulation ran for an at 100m
+        away source.
