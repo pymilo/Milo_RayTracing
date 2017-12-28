@@ -138,8 +138,13 @@ December 27, 2017
 December 28, 2017 
 ####################################
 
-      * Reading the rays for default parameters.
-      * There are no gaps. Why!?
-      * Second Goal: Over plot the simulation with Lab data.
-      * It may be better to overplot the simulation ran for an at 100m
-        away source.
+    * Reading the rays for default parameters.
+    * There gaps appear when in Module.PassRays the Keyword "robust"
+      is set to True. This keywork remove the best solution from
+      surfaces.
+    * Renaming the saved_rays to know what there is in each one.
+    * Second Goal: Over plot the simulation with Lab data.
+    * It may be better to overplot the simulation ran for an at 100m
+      away source.
+    * This is done in the Notebook ** NoGaps_Overplot_Sim-Data **.
+      
