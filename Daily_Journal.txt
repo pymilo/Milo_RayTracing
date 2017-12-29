@@ -147,4 +147,26 @@ December 28, 2017
     * It may be better to overplot the simulation ran for an at 100m
       away source.
     * This is done in the Notebook ** NoGaps_Overplot_Sim-Data **.
-      
+    * I forgot, I have run the simulation for a 7-shell module. I need
+      to edit the code, replace the module for a 10-shell optics and
+      run the simulation againg. I need to be carefull, because the
+      blocker size needs to be modified too.
+
+
+####################################
+December 29, 2017 
+####################################
+
+    * I ran the simulation for a 10-Shell module and an at 100m away
+      source for 3 million rays - No gaps. I overploted the simulation
+      with the data we took in Huntsville and the ghost ray pattern
+      match much better than before. The plots are shown in Notebook:
+      "NoGaps_Overplot_Sim-Data".
+
+    * To highlight is the outer ring that has not been seen before and
+      may correspond with the fact that the blocker was to big. If
+      true, the blocker size is critical to reduce ghost rays for "great"
+      off-axis angles.
+
+
+
