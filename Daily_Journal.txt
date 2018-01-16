@@ -188,6 +188,13 @@ January 16, 2018
 	amount of Ghost-Rays for each case. Goal: Have a plot and
 	results for the team meeting in two days.
 
+	Using an on-axis sources would not tell us how much GR are
+	coming as result of the inner blocker size. To test the effect
+	of that size what I proposed is to use the maximum off-axis
+	angle we would have during flight (i.e. 30 arcmin at 1AU) and run the
+	simualtion playing with the size of the inner blocker.
+
+
 
 
 
