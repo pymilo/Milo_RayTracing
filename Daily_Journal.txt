@@ -169,4 +169,19 @@ December 29, 2017
       off-axis angles.
 
 
+####################################
+January 16, 2018 
+####################################
+
+	After a really intense begining of semester I'm finally back
+	at Berkeley to resume my work with the Ray-Tracing simulation
+	and the other duties I have with FOXSI.
+
+	Current status: All Notebooks and rays are generated for 10,
+	14, 18, 22 and 30 arcmin off-axis sources located 100 meters
+	away. Rays for 26 arcmin off-axis source are generated but the
+	Notebook hasn't been generated. Let's start with that and
+	completing the slides that summarize all this work.
+
+
 
