@@ -183,5 +183,12 @@ January 16, 2018
 	Notebook hasn't been generated. Let's start with that and
 	completing the slides that summarize all this work.
 
+	One of the next taks is to run the simulation for a 10-shell
+	module using diferent sizes of blockers and measured the
+	amount of Ghost-Rays for each case. Goal: Have a plot and
+	results for the team meeting in two days.
+
+
+
 
 
