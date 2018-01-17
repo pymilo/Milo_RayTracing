@@ -195,6 +195,19 @@ January 16, 2018
 	simualtion playing with the size of the inner blocker.
 
 
+####################################
+January 17, 2018 
+####################################
+
+	* I left the simulation runing last night for four differente
+          sizes of blocker diameter for a 10-shell
+          module. Unfortunately, only one of the file recording the
+          rays was saved. I fixed the script this morning and now is
+          running again. This will take the whole day to run.
+
+	* In the meantime, I will compare the Ghost Ray Pattern for a
+          source at 100 meters and one at 1 astronomical unit. This is
+          done in a notebook named "GR_30acrmin_100m_vs_1AU.ipynb".
 
 
 
