@@ -209,6 +209,9 @@ January 17, 2018
           source at 100 meters and one at 1 astronomical unit. This is
           done in a notebook named "GR_30acrmin_100m_vs_1AU.ipynb".
 
+	* Conclusion: No apparent big difference between 100m and 1AU
+          for the GR pattern for a 30 arcmin off-axis source.
+
 
 
 
