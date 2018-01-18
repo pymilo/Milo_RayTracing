@@ -212,6 +212,19 @@ January 17, 2018
 	* Conclusion: No apparent big difference between 100m and 1AU
           for the GR pattern for a 30 arcmin off-axis source.
 
+####################################
+January 18, 2018 
+####################################
+
+	* Something that is really strange when comparing the sources
+          at 100m and 1AU is that zooming in the dots from 100m
+          overplot exactly on top of those from 1AU. It's like the
+          program is reading the same file of rays. I need to check
+          this today. The other goal for today is to plot the GR for
+          the four different blocker sizes. Simulation was left runing
+          last night and it's still running, but I hope it finishes by
+          noon.
 
 
+	  
 
