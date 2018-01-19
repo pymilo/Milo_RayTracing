@@ -225,6 +225,20 @@ January 18, 2018
           last night and it's still running, but I hope it finishes by
           noon.
 
-
+####################################
+January 19, 2018 
+####################################
 	  
+	* Yesterday I got an email from Patrick saying that the inner
+          blocker diameter for a ten shell-module is 2.505
+          inches. This seems too big since according to him, the
+          front and back blockers have the same size. A further
+          discussion is needed (and scheduled) with Lindsay and
+          Brian. In the meantime I ran the simulation also for that
+          diameter and today's first task is to consolidate a set of
+          slides with the results. Thus, the radii simulated are:
+          2.623cm, 2.805cm, 2.855cm, 2.988cm, 3.170cm, and
+          3.230cm. *2.855cm is the one that corresponds to the
+          measured diameter reported by Patrick.
+
 
