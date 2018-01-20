@@ -241,4 +241,27 @@ January 19, 2018
           3.230cm. *2.855cm is the one that corresponds to the
           measured diameter reported by Patrick.
 
+	* I found what I thing is another bug in the FOXSISIM (fuck!).
+	  What I think is happening now with the blockers in the
+	  simulation is the blockers are created inside 'module.py'
+	  lines 69 to 72. Then they are appended as surfaces in line
+	  104 (function 'getSurfaces' line 93), but then after that
+	  the front and back blocker are eliminated -> lines 105 and
+	  106. The question now is WHY the simulation has been running
+	  and giving different results (sort of consistent) for a
+	  range of blocker sizes? My guess is that its because  the
+	  way the rays are generated. They are isotropically generated
+	  and then propagated to the front of the optics. Since the
+	  the optics pupil is defined with the front blocker, there
+	  are no rays generated that hit the front blocker. Thus my
+	  guess is that the current simulation only simulated the
+	  front blocker but not the rear one. An experiment that I
+	  proposed to test how to include the front and rear blockers
+	  is by simply commenting lines 105 and 106 of module.py that
+	  already had a comment saying '# we'll test these
+	  seperately'. This would also expline why the outer blue ring
+	  in the GR pattern doesn't reduce its size when variying the
+	  blocker diameters.
+
+
 
