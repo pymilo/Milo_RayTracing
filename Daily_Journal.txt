@@ -263,5 +263,26 @@ January 19, 2018
 	  in the GR pattern doesn't reduce its size when variying the
 	  blocker diameters.
 
+	* I changed my mind. It seems that lines 105 and 106 in
+          module.py do not affect the effect of the blockers in the
+          simulation. This is because those lines only define the
+          variable "allSurface" that seems to be used only to
+          "enumerate" all surfaces in the simulation for a moment and
+          then count the Shells in line 153.
+
+	* What I think now is that none of the rays hit the rear
+          blocker and the reason is that the intersection is defined
+          before a Ray can reach it. Probably lines from 139 to 151
+          need to be moved to the end of the PassRays function inside
+          module.py
+	* Condition 139 NEVER is going to be satisficed since at that
+          point none of the rays would have a Z location greater than
+          60cm. In fact, the rays won't have a Z position greater than
+          60cm before they get caught by the detector. Maybe I need to
+          include the rear blocker once I do detector.CatchRays
+
+
+
+	  
 
 
