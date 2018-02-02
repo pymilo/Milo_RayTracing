@@ -307,8 +307,23 @@ February 1, 2018
          this analyzis is recorded in the Notebook entitles:
          "Debuggin_Blocker_RearAndFront.ipynb".
 	 
+####################################
+February 2, 2018 
+####################################
 
-
+	 * Since at the end, the Notebook called
+           "Debuggin_Blocker_RearAndFront.ipynb" was the one I used to
+           find the most efficient size for the Front blocker while
+           not having any rear blocker, I decided to rename it as
+           "Most_Efficient_Front_Blocker.ipynb" that is saved at the
+           Notebooks folder.
+	   
+	 * The most effective size for the front Blocker is R =
+           3.17cm. This analyzis was made considering only On-axis
+           sources. 
+	   
+	 *  I created a new notebook to find the most efficient size
+            for the rear blocker. "Most_Efficient_Rear_Blocker.ipynb"
 
 
 
