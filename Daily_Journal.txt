@@ -282,7 +282,36 @@ January 19, 2018
           include the rear blocker once I do detector.CatchRays
 
 
+####################################
+February 1, 2018 
+####################################
 
-	  
+	* All last week Dan Ryan was visiting Berkeley and the ork
+          with the simulation was salowed down a little bit. Early
+          this week I was working on modifiying the foxsisim code,
+          particularly "module.py" to include the rear blocker. After
+          several debgging I finally got a working version of the
+          simulation that includes the new features in the Github
+          Branch located at pymilo/Random-Source-Debugging the version
+          on February 1, 2018.
+
+	* The blocker sizes are introduced now as a 2D tuple in the
+          keyword "core_radius" when Module is called. the first
+          component of the tuple is the front radius and the second is
+          corresponds to the rear blocker.
+
+	* Since the Front Blocker affects the vigneting of the the
+         most inner figure of a FOXSI module, I started by testing the
+         front blocker and its effect on blocking singly hyperboliid
+         reflected rays and the vignetting of the double bounces. All
+         this analyzis is recorded in the Notebook entitles:
+         "Debuggin_Blocker_RearAndFront.ipynb".
+	 
+
+
+
+
+
+
 
 
