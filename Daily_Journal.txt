@@ -325,6 +325,16 @@ February 2, 2018
 	 *  I created a new notebook to find the most efficient size
             for the rear blocker. "Most_Efficient_Rear_Blocker.ipynb"
 
+	 * The Double bounce flux rapidely decrease when increasing
+	   the rear blocker radius.
+
+	 * The rear blocker may be crucial at bloking Ghost Rays for
+	   off-axis sources. We need to assess what the best compromise
+	   for these two effects is.
+
+	 * NEXT Step: Assess the effect of the front blocker size for
+           off-axis sources, create a plot similar to the one Ron
+           did. For this part I should not include the rear blocker.
 
 
 
