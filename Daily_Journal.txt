@@ -337,6 +337,19 @@ February 2, 2018
            did. For this part I should not include the rear blocker.
 
 
+####################################
+February 4, 2018 
+####################################
+
+	*  The plot saved in Most_Efficient_Rear_Blocker.ipynb for the
+           vignetting against the rear blocker radious looks really
+           weird. We don't spect to see a drop that pronounced for
+           very small radious. I need to investigate this behaviour
+           and what can be wrong about that. My first idea is to plot
+           the cross-section of the module at different depths inside
+           the module. Particularly, at the Z corresponding to the
+           location of the rear blocker.
+
 
 
 
