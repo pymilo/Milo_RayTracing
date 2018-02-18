@@ -9,7 +9,7 @@ Sdist = -1.5e13        ## cm
 offaxisAngle = 0.0     ## arcmin
 fbr = 3.17
 
-rbrs = np.arange(0.0,2.855,0.2) # Rear blocker radius ranging from 0.0cm to 2.8 in steps of 0.2
+rbrs = np.arange(2.6,2.855,0.02) # Rear blocker radius ranging from 0.0cm to 2.8 in steps of 0.2
 
 #Create Source : 
 source = Source(type='point',center=[0, -Sdist * np.sin(np.deg2rad(offaxisAngle / 60.0)), Sdist ])
